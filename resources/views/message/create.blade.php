@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-	Manange Message
+	Create Message
 @endsection
 
 @section('mainContent')

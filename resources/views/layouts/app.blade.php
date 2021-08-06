@@ -156,7 +156,7 @@
             <li class="start {{ (request()->is('category')) ? 'active' : '' }}"><a href="/category"><i class="fa fa-tasks"></i><span class="title">Category</span><span class="selected"></span></a></li>
             <li class="start {{ (request()->is('message')) ? 'active' : '' }}"><a href="/message"><i class="fa fa-briefcase"></i><span class="title">Message</span><span class="selected"></span></a></li>
             {{-- <li class="start active"><a href="media.html"><i class="fa fa-film"></i><span class="title">Media</span><span class="selected"></span></a></li> --}}
-            <li class="start active"><a href="subscriber.html"><i class="fa fa-check-square-o"></i><span class="title">Subscriber</span><span class="selected"></span></a></li>
+           {{--  <li class="start active"><a href="subscriber.html"><i class="fa fa-check-square-o"></i><span class="title">Subscriber</span><span class="selected"></span></a></li> --}}
             {{-- <li class="start active"><a href="webmaster.html"><i class="fa fa-user"></i><span class="title">Webmaster</span><span class="selected"></span></a></li> --}}
         </ul>
         <!-- END SIDEBAR MENU -->
