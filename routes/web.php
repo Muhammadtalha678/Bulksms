@@ -52,3 +52,17 @@ Route::get('/message/delete/{status_id}','App\Http\Controllers\MessageController
 Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/media','App\Http\Controllers\MediaController@index');
+
+Route::get('/media/create','App\Http\Controllers\MediaController@create');
+
+Route::post('/media/store','App\Http\Controllers\MediaController@store');
+
+Route::get('/media/edit/{media_id}','App\Http\Controllers\MediaController@edit');
+
+Route::get('/media/status/{status_id}','App\Http\Controllers\MediaController@status');
+
+Route::post('/media/update','App\Http\Controllers\MediaController@update');
+
+Route::get('/media/delete/{media_id}','App\Http\Controllers\MediaController@destroy');
